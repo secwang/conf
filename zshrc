@@ -1,5 +1,5 @@
-# Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+  # Path to your oh-my-zsh installation.
+  export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -45,7 +45,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract z git-flow history history-substring-search tmux)
+plugins=(git extract z git-flow history history-substring-search tmux lein)
 
 # User configuration
 
@@ -59,9 +59,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
+  export EDITOR='vim'
 else
-   export EDITOR='vim'
+  export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -84,7 +84,7 @@ export JDK_HOME=`/usr/libexec/java_home -v 1.8`
 
 source 	~/.alias
 export TERM=xterm-256color
-export LC_ALL=en_US.UTF-8  
+export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
