@@ -58,11 +58,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+else
+   export EDITOR='vim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -79,8 +79,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
-export JDK_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JDK_HOME=`/usr/libexec/java_home -v 1.8`
 
 source 	~/.alias
 export TERM=xterm-256color
@@ -88,3 +88,6 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.cabal/bin" # Add cabal to PATH for scripting
+
+export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
