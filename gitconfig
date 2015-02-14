@@ -10,3 +10,5 @@
 	editor = emacsclient -t -a=\\\"\\\"
 [push]
 	default = simple
+[credential]
+	helper = osxkeychain
