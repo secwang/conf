@@ -1,15 +1,16 @@
 [user]
 	name = secwang
-	email = secwang@fastmail.com 
+	email = secwang@fastmail.com
+        
+[difftool "ediff"]
+        cmd = /Users/secwang/conf/bin/ediff $LOCAL $REMOTE $MERGED
+        
 [merge]
   tool = ediff
 
 [diff]
         tool = ediff
         guitool = ediff
-
-[difftool "ediff"]
-        cmd = ediff $LOCAL $REMOTE $MERGED
         
 [mergetool "ediff"]
   cmd = emacsclient -c -a \"\"  --eval \"(ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" nil \\\"$MERGED\\\")\"
