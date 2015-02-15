@@ -91,5 +91,4 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.cabal/bin" # Add cabal to PATH for scripting
 export PATH="$PATH:$HOME/conf/bin" # Add cabal to PATH for scripting
 # lein staff
-export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
-LEIN_FAST_TRAMPOLINE=y
+# export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
