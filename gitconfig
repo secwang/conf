@@ -21,3 +21,6 @@
 	default = simple
 [credential]
 	helper = osxkeychain
+
+# [http]
+#    proxy = http://192.168.1.48:3128
