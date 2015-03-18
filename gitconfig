@@ -1,24 +1,27 @@
 [user]
-	name = sectic
+	name = secwang
 	email = secwang@fastmail.com
+        
+[diff]
+        tool = ediff
         
 [difftool "ediff"]
         cmd = /Users/secwang/conf/bin/ediff $LOCAL $REMOTE $MERGED
         
+        
 [merge]
   tool = ediff
 
-[diff]
-        tool = ediff
-        guitool = ediff
-        
-[mergetool "ediff"]
-  cmd = emacsclient -c -a \"\"  --eval \"(ediff-merge-files-with-ancestor \\\"$LOCAL\\\" \\\"$REMOTE\\\" \\\"$BASE\\\" nil \\\"$MERGED\\\")\"
+[mergetool.ediff]
+        cmd = /Users/secwang/conf/bin/ediff $LOCAL $REMOTE $MERGED
+         trustExitCode = true
 
 [core]
 	editor = emacsclient -t -a=\\\"\\\"
+
 [push]
 	default = simple
+
 [credential]
 	helper = osxkeychain
 
