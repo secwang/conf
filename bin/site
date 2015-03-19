@@ -1,0 +1,13 @@
+#!/bin/bash
+# for init siterepl
+echo "removing target"
+rm -rf /Users/secwang/workspace/rui/service/target
+rm -rf /Users/secwang/workspace/rui/site/target
+
+echo "install service"
+cd /Users/secwang/workspace/rui/service
+lein install
+echo "start repl"
+
+cd /Users/secwang/workspace/rui/site/
+ENV=dev lein repl
