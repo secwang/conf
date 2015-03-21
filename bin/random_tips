@@ -1,0 +1,4 @@
+#!/bin/bash
+# inspired by fortune
+
+gshuf -n 1 /Users/secwang/conf/programming_tips | terminal-notifier -message
