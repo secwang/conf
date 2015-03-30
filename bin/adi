@@ -1,0 +1,7 @@
+#!/bin/bash
+# for init siterepl
+
+echo "start repl"
+
+cd /Users/secwang/workspace/rui/admin/
+ENV=dev lein repl

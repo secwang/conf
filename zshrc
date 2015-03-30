@@ -54,6 +54,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
+
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -61,7 +63,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='vim'
+  export EDITOR='edit'
 fi
 
 # Compilation flags
