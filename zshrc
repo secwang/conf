@@ -1,11 +1,13 @@
-  # Path to your oh-my-zsh installation.
-  export ZSH=$HOME/.oh-my-zsh
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+
+ZSH_THEME="amuse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -83,6 +85,9 @@ fi
 
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export JDK_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_OPTS="-client -Djava.awt.headless=true -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+CMSClassUnloadingEnabled"
+
+
 
 source 	~/.alias
 export TERM=xterm-256color
