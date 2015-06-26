@@ -1,0 +1,2 @@
+#!/bin/bash
+emacsclient -a /Applications/Aquamacs\ Emacs.app/Contents/MacOS/Aquamacs\ Emacs "$@"

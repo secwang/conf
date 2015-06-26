@@ -17,7 +17,7 @@
          trustExitCode = true
 
 [core]
-	editor = emacsclient -t -a=\\\"\\\"
+	editor = emacsclient -c -a=\\\"\\\"
 
 [push]
 	default = simple

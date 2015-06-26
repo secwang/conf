@@ -5,9 +5,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 
-ZSH_THEME="amuse"
+#ZSH_THEME="amuse"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -47,7 +47,7 @@ ZSH_THEME="amuse"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract z git-flow history history-substring-search tmux lein)
+plugins=(git extract  k  emacs git-flow history history-substring-search tmux lein sublime)
 
 # User configuration
 
@@ -82,10 +82,9 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export JDK_HOME=`/usr/libexec/java_home -v 1.8`
-export JAVA_OPTS="-client -Djava.awt.headless=true -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+CMSClassUnloadingEnabled"
+export JAVA_OPTS="-client -Djava.awt.headless=true -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxMetaspaceSize=700M -Xshare:on"
 
 
 
@@ -97,6 +96,12 @@ export LANG=en_US.UTF-8
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.cabal/bin" # Add cabal to PATH for scripting
 export PATH="$PATH:$HOME/conf/bin" # Add cabal to PATH for scripting
+export PATH="$PATH:/usr/local/Cellar/llvm34/3.4.2/bin" # Add llvm to PATH for scripting
+
+eval "$(fasd --init auto)"
+
+
+
 # lein staff
 # export LEIN_JVM_OPTS=-XX:TieredStopAtLevel=1
 ###-begin-nativescript-completion-###
@@ -160,3 +165,21 @@ elif compctl &>/dev/null; then
   compctl -K _tns_completion -f tns
 fi
 ###-end-tns-completion-###
+export PATH="/usr/local/sbin:$PATH"
+
+source /Users/secwang/.iterm2_shell_integration.zsh
+code () {
+  if [[ $# = 0 ]]
+  then
+    open -a "Visual Studio Code"
+  else
+    [[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
+    open -a "Visual Studio Code" --args "$F"
+  fi
+}
+
+# OPAM configuration
+. /Users/secwang/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+  export NVM_DIR=~/.nvm
+  source $(brew --prefix nvm)/nvm.sh

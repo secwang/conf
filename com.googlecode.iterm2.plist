@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AboutToPasteTabs</key>
+	<true/>
+	<key>AboutToPasteTabs_selection</key>
+	<integer>0</integer>
 	<key>AdjustWindowForFontSizeChange</key>
 	<true/>
 	<key>AllowClipboardAccess</key>
@@ -15,7 +19,7 @@
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
 	<key>AutoHideTmuxClientSession</key>
-	<false/>
+	<true/>
 	<key>CheckTestRelease</key>
 	<true/>
 	<key>ClosingHotkeySwitchesSpaces</key>
@@ -24,6 +28,169 @@
 	<true/>
 	<key>Control</key>
 	<integer>1</integer>
+	<key>Coprocess MRU</key>
+	<array>
+		<string>echo em /Users/secwang/.emacs.d/personal/custom.el
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/.emacs.d/personal/custom.el\")" "(goto-line )"</string>
+		<string>echo em /tmp/site.log
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/tmp/site.log\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/service/resources/site.config
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/resources/site.config\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/service/resources/config
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/resources/config\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/braveheart/target/uberjar/braveheart-0.1.0-SNAPSHOT-standalone.jar
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/braveheart/target/uberjar/braveheart-0.1.0-SNAPSHOT-standalone.jar\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/sync/lixiaolai/lixiaolai_wordpress_all/wordpress_all/662.html
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/sync/lixiaolai/lixiaolai_wordpress_all/wordpress_all/662.html\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/admin/src/rui/admin/routes/pay.clj
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/src/rui/admin/routes/pay.clj\")" "(goto-line )"</string>
+		<string>echo em /usr/local/Cellar/mysql/5.6.22/my.cnf
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/usr/local/Cellar/mysql/5.6.22/my.cnf\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/service/src/rui/migrations/m20150416160714.clj
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/migrations/m20150416160714.clj\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/service/src/rui/bl/transfer_users.clj
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/bl/transfer_users.clj\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/admin/resources/public/scripts2/rui/pay.js
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/resources/public/scripts2/rui/pay.js\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/admin/src-web/app/scripts2/rui/pay.js
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/src-web/app/scripts2/rui/pay.js\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/admin/resources/public/views/pay/advertiser-transfer.html
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/resources/public/views/pay/advertiser-transfer.html\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/admin/src-web/app/views/pay/advertiser-transfer.html
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/src-web/app/views/pay/advertiser-transfer.html\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/admin/src-web/app/views/user/invite_relation.html
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/src-web/app/views/user/invite_relation.html\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/site/src/rui/site/routes/account.clj
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/site/src/rui/site/routes/account.clj\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/service/src/rui/bl/account.clj
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/bl/account.clj\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/admin/src-web/app/scripts2/rui/user.js
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/src-web/app/scripts2/rui/user.js\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/Dropbox/org/timeline.org
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/Dropbox/org/timeline.org\")" "(goto-line )"</string>
+		<string>echo em /Users/secwang/workspace/rui/service/src/rui/core/interaction.clj
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/interaction.clj\")" "(goto-line )"</string>
+	</array>
 	<key>CopyLastNewline</key>
 	<false/>
 	<key>CopySelection</key>
@@ -240,6 +407,216 @@
 				<real>0.91611063480377197</real>
 			</dict>
 		</dict>
+		<key>Zenburn</key>
+		<dict>
+			<key>Ansi 0 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.30196079611778259</real>
+				<key>Green Component</key>
+				<real>0.30196079611778259</real>
+				<key>Red Component</key>
+				<real>0.30196079611778259</real>
+			</dict>
+			<key>Ansi 1 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.31372550129890442</real>
+				<key>Green Component</key>
+				<real>0.31372550129890442</real>
+				<key>Red Component</key>
+				<real>0.43921568989753723</real>
+			</dict>
+			<key>Ansi 10 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.62352943420410156</real>
+				<key>Green Component</key>
+				<real>0.74901962280273438</real>
+				<key>Red Component</key>
+				<real>0.76470589637756348</real>
+			</dict>
+			<key>Ansi 11 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.62352941176470589</real>
+				<key>Green Component</key>
+				<real>0.81176470588235294</real>
+				<key>Red Component</key>
+				<real>0.8784313725490196</real>
+			</dict>
+			<key>Ansi 12 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.9529411792755127</real>
+				<key>Green Component</key>
+				<real>0.74901962280273438</real>
+				<key>Red Component</key>
+				<real>0.58039218187332153</real>
+			</dict>
+			<key>Ansi 13 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.82745099067687988</real>
+				<key>Green Component</key>
+				<real>0.57647061347961426</real>
+				<key>Red Component</key>
+				<real>0.92549020051956177</real>
+			</dict>
+			<key>Ansi 14 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.89019608497619629</real>
+				<key>Green Component</key>
+				<real>0.87843137979507446</real>
+				<key>Red Component</key>
+				<real>0.57647061347961426</real>
+			</dict>
+			<key>Ansi 15 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>1</real>
+				<key>Green Component</key>
+				<real>1</real>
+				<key>Red Component</key>
+				<real>1</real>
+			</dict>
+			<key>Ansi 2 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.54117649793624878</real>
+				<key>Green Component</key>
+				<real>0.70588237047195435</real>
+				<key>Red Component</key>
+				<real>0.37647059559822083</real>
+			</dict>
+			<key>Ansi 3 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.68627450980392157</real>
+				<key>Green Component</key>
+				<real>0.87450980392156863</real>
+				<key>Red Component</key>
+				<real>0.94117647058823528</real>
+			</dict>
+			<key>Ansi 4 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.43921568989753723</real>
+				<key>Green Component</key>
+				<real>0.37647059559822083</real>
+				<key>Red Component</key>
+				<real>0.31372550129890442</real>
+			</dict>
+			<key>Ansi 5 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.76470589637756348</real>
+				<key>Green Component</key>
+				<real>0.54901963472366333</real>
+				<key>Red Component</key>
+				<real>0.86274510622024536</real>
+			</dict>
+			<key>Ansi 6 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.82745099067687988</real>
+				<key>Green Component</key>
+				<real>0.81568628549575806</real>
+				<key>Red Component</key>
+				<real>0.54901963472366333</real>
+			</dict>
+			<key>Ansi 7 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.80000001192092896</real>
+				<key>Green Component</key>
+				<real>0.86274510622024536</real>
+				<key>Red Component</key>
+				<real>0.86274510622024536</real>
+			</dict>
+			<key>Ansi 8 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.50196081399917603</real>
+				<key>Green Component</key>
+				<real>0.56470590829849243</real>
+				<key>Red Component</key>
+				<real>0.43921568989753723</real>
+			</dict>
+			<key>Ansi 9 Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.63921570777893066</real>
+				<key>Green Component</key>
+				<real>0.63921570777893066</real>
+				<key>Red Component</key>
+				<real>0.86274510622024536</real>
+			</dict>
+			<key>Background Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.24705882370471954</real>
+				<key>Green Component</key>
+				<real>0.24705882370471954</real>
+				<key>Red Component</key>
+				<real>0.24705882370471954</real>
+			</dict>
+			<key>Bold Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.80000001192092896</real>
+				<key>Green Component</key>
+				<real>0.86274510622024536</real>
+				<key>Red Component</key>
+				<real>0.86274510622024536</real>
+			</dict>
+			<key>Cursor Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.35294118523597717</real>
+				<key>Green Component</key>
+				<real>0.38823530077934265</real>
+				<key>Red Component</key>
+				<real>0.45098039507865906</real>
+			</dict>
+			<key>Cursor Text Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.0</real>
+				<key>Green Component</key>
+				<real>0.0</real>
+				<key>Red Component</key>
+				<real>0.0</real>
+			</dict>
+			<key>Foreground Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.80000001192092896</real>
+				<key>Green Component</key>
+				<real>0.86274510622024536</real>
+				<key>Red Component</key>
+				<real>0.86274510622024536</real>
+			</dict>
+			<key>Selected Text Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.47843137383460999</real>
+				<key>Green Component</key>
+				<real>0.84705883264541626</real>
+				<key>Red Component</key>
+				<real>0.7607843279838562</real>
+			</dict>
+			<key>Selection Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.18431372940540314</real>
+				<key>Green Component</key>
+				<real>0.19607843458652496</real>
+				<key>Red Component</key>
+				<real>0.12941177189350128</real>
+			</dict>
+		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>A572DD35-EDFB-4878-A73C-BC4DBD53F1D0</string>
@@ -251,6 +628,8 @@
 	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DoubleClickPerformsSmartSelection</key>
+	<true/>
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
@@ -266,7 +645,7 @@
 	<key>HideMenuBarInFullscreen</key>
 	<true/>
 	<key>HideScrollbar</key>
-	<false/>
+	<true/>
 	<key>HideTab</key>
 	<true/>
 	<key>HighlightTabLabels</key>
@@ -297,11 +676,17 @@
 	<false/>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Documents</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 565}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
+	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
@@ -314,20 +699,24 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>304</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>135 119 605 485 0 0 1280 777 </string>
+	<string>1310 292 924 485 1280 -1120 1080 1897 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>332 288 620 392 0 0 1280 777 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>74 112 1179 655 0 0 1280 777 </string>
+	<string>1666 97 570 451 1280 -1120 1080 1897 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>538 241 570 451 0 0 1280 777 </string>
+	<string>374 298 570 452 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>437 112 570 451 0 0 1280 777 </string>
+	<string>437 95 570 452 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>393 68 570 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -960,11 +1349,18 @@
 			<key>Semantic History</key>
 			<dict>
 				<key>action</key>
-				<string>best editor</string>
+				<string>raw command</string>
 				<key>editor</key>
 				<string>com.sublimetext.3</string>
 				<key>text</key>
-				<string></string>
+				<string>echo em \1
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
+emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
@@ -975,7 +1371,7 @@
 			<key>Silence Bell</key>
 			<true/>
 			<key>Smart Cursor Color</key>
-			<true/>
+			<false/>
 			<key>Smart Selection Rules</key>
 			<array>
 				<dict>
@@ -1097,6 +1493,22 @@
 			<string>/Users/secwang</string>
 		</dict>
 	</array>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
+	<key>NoSyncNeverRemindPrefsChangesLost</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
+	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
+	<true/>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>453843663.16674697</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>455713043.74291599</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1104,7 +1516,7 @@
 	<key>OpenBookmark</key>
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
 	<key>PassOnControlClick</key>
@@ -1154,14 +1566,18 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
 	<string>http://iterm2.com/appcasts/testing.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-03-23T08:37:36Z</date>
+	<date>2015-06-11T10:57:22Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1175,7 +1591,9 @@
 	<key>SwitchTabModifier</key>
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
-	<integer>6</integer>
+	<integer>9</integer>
+	<key>TabStyle</key>
+	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>ThreeFingerEmulates</key>
@@ -1184,6 +1602,8 @@
 	<integer>10</integer>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1431935488</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -1191,7 +1611,7 @@
 	<key>UseCompactLabel</key>
 	<true/>
 	<key>UseLionStyleFullscreen</key>
-	<true/>
+	<false/>
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
@@ -1207,6 +1627,8 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.0.0.20141103</string>
+	<string>2.1.1</string>
+	<key>kCommandHistoryHasEverBeenUsed</key>
+	<true/>
 </dict>
 </plist>
