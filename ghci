@@ -1,0 +1,19 @@
+import System.Directory ( getCurrentDirectory)
+import System.Process (readProcess)
+
+:set -hide-package mtl
+
+:set prompt "\x1b[32mλ>\x1b[0m " -- set the shell prompt to print λ (lambda)
+
+:def hoogle \s -> return $ ":! hoogle --count=15 \"" ++ s ++ "\""
+
+let xclip_ =  readProcess "xclip" ["-o", "-selection", "clipboard"] ""
+
+let __savePasted = do {  code <-  readProcess "xclip" ["-o", "-selection", "clipboard"] ""  ;  putStrLn 
+
+code ; writeFile "/tmp/haskTemp.hs" code}
+
+let pwd = getCurrentDirectory >>= putStrLn
+
+:def paste (\_ -> __savePasted >> return ":load /tmp/haskTemp.hs" )
+:def pwd (\_ -> pwd >> return "")
