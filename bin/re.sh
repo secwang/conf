@@ -1,2 +1,2 @@
-osascript -e 'tell application "Safari"' -e 'tell its first document' -e 'set its URL to (get its URL)' -e 'end tell' -e 'end tell'
+osascript -e 'tell application "Safari"' -e 'tell its first document' -e 'set its URL to (get its URL)' -e 'end tell' -e 'end tell' -e 'tell application "Safari" to activate'
 
