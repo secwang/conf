@@ -178,8 +178,11 @@ code () {
   fi
 }
 
+ export HOMEBREW_GITHUB_API_TOKEN=f570742cff68a1d6222a8a318a2e6d0fe90e3f41 
 # OPAM configuration
 . /Users/secwang/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
   export NVM_DIR=~/.nvm
   source $(brew --prefix nvm)/nvm.sh
+
+    export PATH="$HOME/Library/Haskell/bin:$PATH"

@@ -17,3 +17,5 @@ let pwd = getCurrentDirectory >>= putStrLn
 
 :def paste (\_ -> __savePasted >> return ":load /tmp/haskTemp.hs" )
 :def pwd (\_ -> pwd >> return "")
+
+:set +c
