@@ -182,7 +182,9 @@ code () {
 # OPAM configuration
 . /Users/secwang/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
-  export NVM_DIR=~/.nvm
-  source $(brew --prefix nvm)/nvm.sh
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 
-    export PATH="$HOME/Library/Haskell/bin:$PATH"
+export PATH="$HOME/Library/Haskell/bin:$PATH"
+export GOPATH=$HOME/go 
+export PATH=$PATH:$GOPATH/bin
