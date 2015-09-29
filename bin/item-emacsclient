@@ -1,0 +1,1 @@
+emacsclient -e "(find-file \"$1\")" "(goto-line $2)"

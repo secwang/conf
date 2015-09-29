@@ -51,7 +51,7 @@ plugins=(git extract  k  emacs git-flow history history-substring-search tmux le
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/Users/secwang/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -63,7 +63,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
+  export EDITOR='nvim'
 else
   export EDITOR='edit'
 fi
@@ -188,3 +188,35 @@ source $(brew --prefix nvm)/nvm.sh
 export PATH="$HOME/Library/Haskell/bin:$PATH"
 export GOPATH=$HOME/go 
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:~/.local/bin
+
+export PATH=$PATH:$HOME/.local/bin
+
+# unregister broken GHC packages. Run this a few times to resolve dependency rot in installed packages.
+# ghc-pkg-clean -f cabal/dev/packages*.conf also works.
+function ghc-pkg-clean() {
+  for p in `ghc-pkg check $* 2>&1  | grep problems | awk '{print $6}' | sed -e 's/:$//'`
+  do
+    echo unregistering $p; ghc-pkg $* unregister $p
+  done
+}
+
+# remove all installed GHC/cabal packages, leaving ~/.cabal binaries and docs in place.
+# When all else fails, use this to get out of dependency hell and start over.
+function ghc-pkg-reset() {
+  if [[ $(readlink -f /proc/$$/exe) =~ zsh ]]; then
+    read 'ans?Erasing all your user ghc and cabal packages - are you sure (y/N)? '
+  else # assume bash/bash compatible otherwise
+    read -p 'Erasing all your user ghc and cabal packages - are you sure (y/N)? ' ans
+  fi
+
+  [[ x$ans =~ "xy" ]] && ( \
+    echo 'erasing directories under ~/.ghc'; command rm -rf `find ~/.ghc/* -maxdepth 1 -type d`; \
+    echo 'erasing ~/.cabal/lib'; command rm -rf ~/.cabal/lib; \
+  )
+}
+
+alias cabalupgrades="cabal list --installed  | egrep -iv '(synopsis|homepage|license)'"
+
+# http://stackoverflow.com/questions/22055390/how-to-install-git-with-pcre-support-on-osx-with-homebrew
+export USE_LIBPCRE=yes

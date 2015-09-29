@@ -1,0 +1,5 @@
+#!/bin/bash
+pbpaste > /tmp/cliptmp
+js-beautify --type html /tmp/cliptmp  > /tmp/cliptmp1
+cat /tmp/cliptmp1 | pbcopy
+
