@@ -1,2 +1,4 @@
 #!/bin/bash
-echo $(date "+%Y-%m-%d %H:%M:%S") - "$@"  | dayone new
+file="$HOME/.now/$(date "+%Y-%m-%d")"
+touch $file || exit
+echo $(date "+%Y-%m-%d %H:%M:%S") - "$@" >> "$file"
