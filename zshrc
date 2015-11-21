@@ -220,3 +220,5 @@ alias cabalupgrades="cabal list --installed  | egrep -iv '(synopsis|homepage|lic
 
 # http://stackoverflow.com/questions/22055390/how-to-install-git-with-pcre-support-on-osx-with-homebrew
 export USE_LIBPCRE=yes
+eval `/usr/libexec/path_helper -s`
+export PROMPT='%* '$PROMPT

@@ -27,10 +27,12 @@ values."
      ;; better-defaults
 	 (d12-haskell :variables haskell-enable-hindent-style "chris-done"
 	                              haskell-enable-shm-support t
+                                  haskell-enable-ghci-ng-support t
 	                              haskell-process-type 'stack-ghci)
 	 							 spacemacs
 	 	 wakatime
 	 	 chinese
+		 xkcd
 	 	 (auto-completion :variables
 	                     auto-completion-return-key-behavior 'complete
 	                     auto-completion-tab-key-behavior 'cycle
@@ -40,10 +42,12 @@ values."
 	      deft
 	      better-defaults
 	 	 chrome
+		 sec
 	      git
 	      markdown
 	      org
 	      (shell :variables
+		         shell-default-shell 'eshell
 	             shell-default-height 30
 	             shell-default-position 'bottom)
 	      syntax-checking
@@ -64,7 +68,6 @@ values."
 	      python
 	      ruby
 	      latex
-	      pcre2el
 	      puppet
 	 
      )
@@ -110,11 +113,11 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(spacemacs-light
+   dotspacemacs-themes '(leuven
                          spacemacs-dark
                          solarized-light
                          solarized-dark
-                         leuven
+                         spacemacs-light
                          monokai
                          zenburn)
    ;; If non nil the cursor color matches the state color.
@@ -225,10 +228,10 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
 (setq tramp-ssh-controlmaster-options
-        (concat
-         "-o ControlMaster=auto"
-         "-o ControlPath='tramp.%%C'"
-         "-o ControlPersist=no"))
+         (concat
+          "-o ControlMaster=auto"
+          "-o ControlPath='tramp.%%C'"
+          "-o ControlPersist=no"))
   )
 
 (defun dotspacemacs/user-config ()
@@ -236,11 +239,11 @@ user code."
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
 (setq org-bullets-bullet-list '("■" "◆" "▲" "▶"))
-(setq deft-directory "~/Dropbox/notes")
+(setq deft-directory "/Users/secwang/Library/Mobile Documents/com~apple~CloudDocs/org")
 (setq deft-extension "org")
 (setq deft-text-mode 'org-mode)
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
-(setq-default evil-escape-key-sequence "jk")
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -250,6 +253,12 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("4f81886421185048bd186fbccc98d95fca9c8b6a401771b7457d81f749f5df75" default)))
+ '(org-agenda-files
+   (quote
+    ("~/Library/Mobile Documents/com~apple~CloudDocs/org/daily.org" )))
  '(safe-local-variable-values
    (quote
     ((haskell-process-use-ghci . t)
