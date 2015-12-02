@@ -1075,13 +1075,13 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 	<key>HotKeyTogglesWindow</key>
 	<false/>
 	<key>Hotkey</key>
-	<false/>
+	<true/>
 	<key>HotkeyChar</key>
-	<integer>0</integer>
+	<integer>96</integer>
 	<key>HotkeyCode</key>
-	<integer>0</integer>
+	<integer>50</integer>
 	<key>HotkeyModifiers</key>
-	<integer>0</integer>
+	<integer>1048840</integer>
 	<key>IRMemory</key>
 	<integer>4</integer>
 	<key>JobName</key>
@@ -1095,7 +1095,7 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
+	<string>~/Downloads</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 498}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -1133,13 +1133,13 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>659 420 231 329 0 0 1280 777 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>325 292 924 485 0 0 1280 777 </string>
+	<string>909 572 924 485 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>332 288 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>281 127 829 604 0 0 1280 777 </string>
+	<string>4 36 1473 910 0 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>250 125 570 451 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1164,65 +1164,65 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Ansi 0 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.30196079611778259</real>
+				<real>0.0</real>
 				<key>Green Component</key>
-				<real>0.30196079611778259</real>
+				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.30196079611778259</real>
+				<real>0.0</real>
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.31372550129890442</real>
+				<real>0.3333333432674408</real>
 				<key>Green Component</key>
-				<real>0.31372550129890442</real>
+				<real>0.3333333432674408</real>
 				<key>Red Component</key>
-				<real>0.43921568989753723</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.62352943420410156</real>
+				<real>0.48235294222831726</real>
 				<key>Green Component</key>
-				<real>0.74901962280273438</real>
+				<real>0.98039215803146362</real>
 				<key>Red Component</key>
-				<real>0.76470589637756348</real>
+				<real>0.31372550129890442</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.62352943420410156</real>
+				<real>0.54901963472366333</real>
 				<key>Green Component</key>
-				<real>0.81176471710205078</real>
+				<real>0.98039215803146362</real>
 				<key>Red Component</key>
-				<real>0.87843137979507446</real>
+				<real>0.94509804248809814</real>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.9529411792755127</real>
+				<real>0.97647058963775635</real>
 				<key>Green Component</key>
-				<real>0.74901962280273438</real>
+				<real>0.57647061347961426</real>
 				<key>Red Component</key>
-				<real>0.58039218187332153</real>
+				<real>0.74117648601531982</real>
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.82745099067687988</real>
+				<real>0.7764706015586853</real>
 				<key>Green Component</key>
-				<real>0.57647061347961426</real>
+				<real>0.47450980544090271</real>
 				<key>Red Component</key>
-				<real>0.92549020051956177</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 14 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.89019608497619629</real>
+				<real>0.99215686321258545</real>
 				<key>Green Component</key>
-				<real>0.87843137979507446</real>
+				<real>0.91372549533843994</real>
 				<key>Red Component</key>
-				<real>0.57647061347961426</real>
+				<real>0.54509806632995605</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
@@ -1236,74 +1236,74 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.54117649793624878</real>
+				<real>0.48235294222831726</real>
 				<key>Green Component</key>
-				<real>0.70588237047195435</real>
+				<real>0.98039215803146362</real>
 				<key>Red Component</key>
-				<real>0.37647059559822083</real>
+				<real>0.31372550129890442</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.68627452850341797</real>
+				<real>0.54901963472366333</real>
 				<key>Green Component</key>
-				<real>0.87450981140136719</real>
+				<real>0.98039215803146362</real>
 				<key>Red Component</key>
-				<real>0.94117647409439087</real>
+				<real>0.94509804248809814</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.43921568989753723</real>
+				<real>0.97647058963775635</real>
 				<key>Green Component</key>
-				<real>0.37647059559822083</real>
+				<real>0.57647061347961426</real>
 				<key>Red Component</key>
-				<real>0.31372550129890442</real>
+				<real>0.74117648601531982</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.76470589637756348</real>
+				<real>0.7764706015586853</real>
 				<key>Green Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.47450980544090271</real>
 				<key>Red Component</key>
-				<real>0.86274510622024536</real>
+				<real>1</real>
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.82745099067687988</real>
+				<real>0.99215686321258545</real>
 				<key>Green Component</key>
-				<real>0.81568628549575806</real>
+				<real>0.91372549533843994</real>
 				<key>Red Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.54509806632995605</real>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.80000001192092896</real>
+				<real>0.73333334922790527</real>
 				<key>Green Component</key>
-				<real>0.86274510622024536</real>
+				<real>0.73333334922790527</real>
 				<key>Red Component</key>
-				<real>0.86274510622024536</real>
+				<real>0.73333334922790527</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.50196081399917603</real>
+				<real>0.3333333432674408</real>
 				<key>Green Component</key>
-				<real>0.56470590829849243</real>
+				<real>0.3333333432674408</real>
 				<key>Red Component</key>
-				<real>0.43921568989753723</real>
+				<real>0.3333333432674408</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.63921570777893066</real>
+				<real>0.3333333432674408</real>
 				<key>Green Component</key>
-				<real>0.63921570777893066</real>
+				<real>0.3333333432674408</real>
 				<key>Red Component</key>
-				<real>0.86274510622024536</real>
+				<real>1</real>
 			</dict>
 			<key>Automatically Log</key>
 			<false/>
@@ -1312,16 +1312,16 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.24705882370471954</real>
+				<real>0.15977837145328522</real>
 				<key>Green Component</key>
-				<real>0.24705882370471954</real>
+				<real>0.12215272337198257</real>
 				<key>Red Component</key>
-				<real>0.24705882370471954</real>
+				<real>0.11765811592340469</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
 			<key>Background Image Location</key>
-			<string></string>
+			<string>/Users/secwang/Downloads/photo-1431057499046-ecd6e0f36ebe.jpeg</string>
 			<key>Blend</key>
 			<real>0.30000001192092896</real>
 			<key>Blink Allowed</key>
@@ -1335,11 +1335,11 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.80000001192092896</real>
+				<real>1</real>
 				<key>Green Component</key>
-				<real>0.86274510622024536</real>
+				<real>1</real>
 				<key>Red Component</key>
-				<real>0.86274510622024536</real>
+				<real>1</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -1352,20 +1352,20 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.35294118523597717</real>
+				<real>0.73333334922790527</real>
 				<key>Green Component</key>
-				<real>0.38823530077934265</real>
+				<real>0.73333334922790527</real>
 				<key>Red Component</key>
-				<real>0.45098039507865906</real>
+				<real>0.73333334922790527</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>1</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>1</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>2</integer>
@@ -1386,11 +1386,11 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.80000001192092896</real>
+				<real>0.94901961088180542</real>
 				<key>Green Component</key>
-				<real>0.86274510622024536</real>
+				<real>0.97254902124404907</real>
 				<key>Red Component</key>
-				<real>0.86274510622024536</real>
+				<real>0.97254902124404907</real>
 			</dict>
 			<key>Guid</key>
 			<string>A572DD35-EDFB-4878-A73C-BC4DBD53F1D0</string>
@@ -1760,29 +1760,29 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.47843137383460999</real>
+				<real>1</real>
 				<key>Green Component</key>
-				<real>0.84705883264541626</real>
+				<real>1</real>
 				<key>Red Component</key>
-				<real>0.7607843279838562</real>
+				<real>1</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.18431372940540314</real>
+				<real>0.35294118523597717</real>
 				<key>Green Component</key>
-				<real>0.19607843458652496</real>
+				<real>0.27843138575553894</real>
 				<key>Red Component</key>
-				<real>0.12941177189350128</real>
+				<real>0.26666668057441711</real>
 			</dict>
 			<key>Semantic History</key>
 			<dict>
 				<key>action</key>
-				<string>editor</string>
+				<string>raw command</string>
 				<key>editor</key>
 				<string>com.macromates.textmate</string>
 				<key>text</key>
-				<string>echo em \1
+				<string>
 emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
 emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
 emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
@@ -1937,7 +1937,7 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>453843663.16674697</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>467890863.01396799</real>
+	<real>470655411.86974299</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -2006,7 +2006,7 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-10-29T15:53:28Z</date>
+	<date>2015-12-01T09:36:47Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
