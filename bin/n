@@ -1,2 +1,3 @@
 #!/bin/bash
+date +%F\ %r
 date +%F\ %r | pbcopy
