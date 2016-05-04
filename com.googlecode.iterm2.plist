@@ -1075,7 +1075,7 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 	<key>HotKeyTogglesWindow</key>
 	<false/>
 	<key>Hotkey</key>
-	<true/>
+	<false/>
 	<key>HotkeyChar</key>
 	<integer>96</integer>
 	<key>HotkeyCode</key>
@@ -1119,7 +1119,7 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>319</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -1133,15 +1133,15 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>659 420 231 329 0 0 1280 777 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>753 572 924 485 0 0 1920 1057 </string>
+	<string>269 321 606 456 0 0 1280 777 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>332 288 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1280 800 0 0 1280 777 </string>
+	<string>13 750 570 427 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>250 125 570 451 0 0 1280 777 </string>
+	<string>487 91 570 427 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>665 400 570 451 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -1164,146 +1164,146 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Ansi 0 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.19370138645172119</real>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.15575926005840302</real>
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.14145712554454803</real>
 				<key>Green Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.10840645432472229</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.81926983594894409</real>
 			</dict>
 			<key>Ansi 10 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.48235294222831726</real>
+				<real>0.38298487663269043</real>
 				<key>Green Component</key>
-				<real>0.98039215803146362</real>
+				<real>0.35665956139564514</real>
 				<key>Red Component</key>
-				<real>0.31372550129890442</real>
+				<real>0.27671992778778076</real>
 			</dict>
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.43850564956665039</real>
 				<key>Green Component</key>
-				<real>0.98039215803146362</real>
+				<real>0.40717673301696777</real>
 				<key>Red Component</key>
-				<real>0.94509804248809814</real>
+				<real>0.32436618208885193</real>
 			</dict>
 			<key>Ansi 12 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.97647058963775635</real>
+				<real>0.51685798168182373</real>
 				<key>Green Component</key>
-				<real>0.57647061347961426</real>
+				<real>0.50962930917739868</real>
 				<key>Red Component</key>
-				<real>0.74117648601531982</real>
+				<real>0.44058024883270264</real>
 			</dict>
 			<key>Ansi 13 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.7764706015586853</real>
+				<real>0.72908437252044678</real>
 				<key>Green Component</key>
-				<real>0.47450980544090271</real>
+				<real>0.33896297216415405</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.34798634052276611</real>
 			</dict>
 			<key>Ansi 14 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.99215686321258545</real>
+				<real>0.56363654136657715</real>
 				<key>Green Component</key>
-				<real>0.91372549533843994</real>
+				<real>0.56485837697982788</real>
 				<key>Red Component</key>
-				<real>0.54509806632995605</real>
+				<real>0.50599193572998047</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.86405980587005615</real>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.95794391632080078</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.98943418264389038</real>
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.48235294222831726</real>
+				<real>0.020208755508065224</real>
 				<key>Green Component</key>
-				<real>0.98039215803146362</real>
+				<real>0.54115492105484009</real>
 				<key>Red Component</key>
-				<real>0.31372550129890442</real>
+				<real>0.44977453351020813</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.54901963472366333</real>
+				<real>0.023484811186790466</real>
 				<key>Green Component</key>
-				<real>0.98039215803146362</real>
+				<real>0.46751424670219421</real>
 				<key>Red Component</key>
-				<real>0.94509804248809814</real>
+				<real>0.64746475219726562</real>
 			</dict>
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.97647058963775635</real>
+				<real>0.78231418132781982</real>
 				<key>Green Component</key>
-				<real>0.57647061347961426</real>
+				<real>0.46265947818756104</real>
 				<key>Red Component</key>
-				<real>0.74117648601531982</real>
+				<real>0.12754884362220764</real>
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.7764706015586853</real>
+				<real>0.43516635894775391</real>
 				<key>Green Component</key>
-				<real>0.47450980544090271</real>
+				<real>0.10802463442087173</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.77738940715789795</real>
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.99215686321258545</real>
+				<real>0.52502274513244629</real>
 				<key>Green Component</key>
-				<real>0.91372549533843994</real>
+				<real>0.57082360982894897</real>
 				<key>Red Component</key>
-				<real>0.54509806632995605</real>
+				<real>0.14679534733295441</real>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.79781103134155273</real>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.89001238346099854</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.91611063480377197</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.15170273184776306</real>
 				<key>Green Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.11783610284328461</real>
 				<key>Red Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.0</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.073530435562133789</real>
 				<key>Green Component</key>
-				<real>0.3333333432674408</real>
+				<real>0.21325300633907318</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.74176257848739624</real>
 			</dict>
 			<key>Automatically Log</key>
 			<false/>
@@ -1312,11 +1312,11 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.15977837145328522</real>
+				<real>0.86405980587005615</real>
 				<key>Green Component</key>
-				<real>0.12215272337198257</real>
+				<real>0.95794391632080078</real>
 				<key>Red Component</key>
-				<real>0.11765811592340469</real>
+				<real>0.98943418264389038</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -1335,11 +1335,11 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.38298487663269043</real>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.35665956139564514</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.27671992778778076</real>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -1352,20 +1352,20 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.43850564956665039</real>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.40717673301696777</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.32436618208885193</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.79781103134155273</real>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.89001238346099854</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.91611063480377197</real>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>2</integer>
@@ -1386,11 +1386,11 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.94901961088180542</real>
+				<real>0.43850564956665039</real>
 				<key>Green Component</key>
-				<real>0.97254902124404907</real>
+				<real>0.40717673301696777</real>
 				<key>Red Component</key>
-				<real>0.97254902124404907</real>
+				<real>0.32436618208885193</real>
 			</dict>
 			<key>Guid</key>
 			<string>A572DD35-EDFB-4878-A73C-BC4DBD53F1D0</string>
@@ -1740,7 +1740,7 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>SourceCodePro-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1760,20 +1760,20 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.38298487663269043</real>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.35665956139564514</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.27671992778778076</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.35294118523597717</real>
+				<real>0.79781103134155273</real>
 				<key>Green Component</key>
-				<real>0.27843138575553894</real>
+				<real>0.89001238346099854</real>
 				<key>Red Component</key>
-				<real>0.26666668057441711</real>
+				<real>0.91611063480377197</real>
 			</dict>
 			<key>Semantic History</key>
 			<dict>
@@ -1922,22 +1922,80 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 			<string>/Users/secwang</string>
 		</dict>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>0</integer>
+	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
+	<integer>0</integer>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
+	<key>NoSyncLastTipTime</key>
+	<real>482075433.81856799</real>
 	<key>NoSyncNeverRemindPrefsChangesLost</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
 	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>477558667.60484302</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>453843663.16674697</real>
+	<real>477554379.25828701</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>472316892.47764301</real>
+	<real>477549109.62031198</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1987,6 +2045,8 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/secwang/conf</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -2002,11 +2062,11 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-12-20T04:40:40Z</date>
+	<date>2016-04-11T02:19:57Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2056,7 +2116,7 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>2.9.20160313</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>

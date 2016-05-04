@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+filename = ARGV.first
+
+txt = File.open(filename)
+x = txt.readlines()
+
+x.each do |line|
+  if line =~ /(?<=\[\[)(.*)(?=\]\[)/
+    x = $1
+    if not $1.empty?
+      t = $1
+      if t.match(/\s/)
+        t = t.gsub! ' ', '-'
+      end
+      line.gsub! x , t
+      puts line
+    else
+      puts line
+    end
+  else
+        puts line
+  end
+end
