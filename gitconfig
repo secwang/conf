@@ -1,6 +1,7 @@
 [user]
 	name = secwang
-	email = monadic.io@gmail.com
+	email = monadic.io@gmail.com 
+	signingkey = 04BCDB1E
         
 [diff]
         tool = ediff
@@ -17,7 +18,7 @@
          trustExitCode = true
 
 [core]
-	editor = emacsclient -c -a=\\\"\\\"
+	editor = /usr/local/bin/vim
 
 [push]
 	default = simple
