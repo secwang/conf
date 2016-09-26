@@ -1,0 +1,9 @@
+#!/bin/bash
+JAR=$1
+echo $JAR
+unzip -d $JAR.tmp $JAR
+pushd $JAR.tmp
+for f in `find . -name '*.class'`; do
+    jad -d $(dirname $f) -s java -lnc $f
+    done
+    popd
