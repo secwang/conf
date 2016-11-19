@@ -1,0 +1,14 @@
+#!/usr/local/bin/perl
+use strict;
+use warnings;
+
+my ($args) = @ARGV;
+
+if (not defined $args){
+    die "Need args\n"
+    exit;
+}
+
+my $out = <<_EOC_;
+    java -jar /Users/secwang/conf/libs/asmtools.jar jasm  $args
+_EOC_

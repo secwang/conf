@@ -36,6 +36,8 @@
 	<integer>1</integer>
 	<key>Coprocess MRU</key>
 	<array>
+		<string>/Users/secwang/conf/bin/iterm2-send-zmodem.sh</string>
+		<string>/Users/secwang/conf/bin/iterm2-recv-zmodem.sh</string>
 		<string>echo em /Users/secwang/.emacs.d/personal/custom.el
 emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
 emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
@@ -180,22 +182,6 @@ emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
 emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
 emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
 emacsclient -e "(find-file \"/Users/secwang/workspace/rui/admin/src-web/app/scripts2/rui/user.js\")" "(goto-line )"</string>
-		<string>echo em /Users/secwang/Dropbox/org/timeline.org
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"/Users/secwang/Dropbox/org/timeline.org\")" "(goto-line )"</string>
-		<string>echo em /Users/secwang/workspace/rui/service/src/rui/core/interaction.clj
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"$1\")" "(goto-line $2)"
-emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/interaction.clj\")" "(goto-line )"</string>
 	</array>
 	<key>CopyLastNewline</key>
 	<false/>
@@ -1101,7 +1087,7 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Downloads</string>
+	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 498}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -1145,15 +1131,15 @@ emacsclient -e "(find-file \"/Users/secwang/workspace/rui/service/src/rui/core/i
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>138 74 606 456 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 109 1018 447 0 0 1920 1057 </string>
+	<string>945 287 918 512 0 0 1920 1057 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>566 350 570 427 0 0 1280 777 </string>
+	<string>389 561 570 427 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>604 580 570 448 0 0 1920 1057 </string>
+	<string>411 609 570 448 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>144 450 570 448 0 0 1920 1057 </string>
+	<string>1170 398 570 448 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>747 139 570 448 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -1911,7 +1897,28 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
-			<array/>
+			<array>
+				<dict>
+					<key>action</key>
+					<string>MuteCoprocessTrigger</string>
+					<key>parameter</key>
+					<string>/Users/secwang/conf/bin/iterm2-send-zmodem.sh</string>
+					<key>partial</key>
+					<true/>
+					<key>regex</key>
+					<string>\*\*B0100</string>
+				</dict>
+				<dict>
+					<key>action</key>
+					<string>MuteCoprocessTrigger</string>
+					<key>parameter</key>
+					<string>/Users/secwang/conf/bin/iterm2-recv-zmodem.sh</string>
+					<key>partial</key>
+					<true/>
+					<key>regex</key>
+					<string>\*\*B00000000000000</string>
+				</dict>
+			</array>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -2097,7 +2104,7 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-09-29T00:52:43Z</date>
+	<date>2016-10-31T02:28:13Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2149,7 +2156,7 @@ emacsclient -e "(find-file \"\1\")" "(goto-line \2)"</string>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.9</string>
+	<string>3.0.10</string>
 	<key>kCommandHistoryHasEverBeenUsed</key>
 	<true/>
 </dict>
