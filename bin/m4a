@@ -1,0 +1,21 @@
+#!/usr/local/bin/perl
+use strict;
+use warnings;
+
+my ($args) = @ARGV;
+my $old_text= `osascript -e 'the clipboard'` ;
+
+chomp $old_text;
+
+
+
+my $out = <<_EOC_;
+    wget '$old_text' -O '$args.m4a'
+_EOC_
+
+print $out;
+
+exec $out;
+
+__END__
+
