@@ -1,6 +1,6 @@
 #!/usr/local/bin/perl
 use strict;
-use warnings; 
+use warnings;
 
 my ($node,$script) = @ARGV;
 
@@ -9,19 +9,18 @@ if (not defined $node){
     exit;
 }
 
-
 if (not defined $script){
     die "Need script\n";
     exit;
 }
 
 my $out = <<_EOC_;
-ssh $node '$script' 
+ssh -q $node '$script'
 _EOC_
 
 #print $out;
 
 exec $out;
 
-__end__
+__END__
 

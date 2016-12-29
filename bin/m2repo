@@ -1,0 +1,22 @@
+#!/usr/local/bin/perl
+use strict;
+use warnings;
+
+my ($args) = @ARGV;
+my $out;
+if ($args eq 58 ){
+$out = <<_EOC_;
+   cp ~/.m2/settings.xml.bak ~/.m2/settings.xml 
+_EOC_
+} elsif ($args eq "normal") {
+$out = <<_EOC_;
+   test -x ~/.m2 && rm ~/.m2/settings.xml 
+_EOC_
+} else {
+    print("do nothing");
+}
+
+exec $out;
+
+__END__
+
