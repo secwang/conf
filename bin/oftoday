@@ -1,5 +1,9 @@
 #!/usr/bin/env osascript
-set theDueDate to the current date
+
+set currentDateTime to current date 
+set timeNow to time of currentDateTime 
+set myDate to currentDateTime - timeNow 
+set theDueDate to myDate + ( 21 * hours)
 
 tell application "OmniFocus"
     tell the default document to tell the front document window
@@ -9,13 +13,10 @@ tell application "OmniFocus"
     tell front document
 		set todayProject to first flattened project whose name is "Today" 
 		set todayTask to flattened tasks of todayProject where its completed = false 
-		display notification the length of todayTask
+		-- display notification the length of todayTask
 		repeat with b from 1 to length of todayTask 
 		    set theCurrentTask to item b of todayTask 
-		    set the due date of item b to theDueDate
-		    -- if (completed of the b) is false then
-		    -- end if 
-		    -- set the flagged of the theCurrentTask to false
+		    set theCurrentTask's due date to theDueDate
 		end repeat
     end tell
 end tell
