@@ -1,0 +1,11 @@
+#!/usr/bin/env osascript
+set theDate to current date
+display dialog "what is your want add to today" default answer ""
+set theTask to text returned of result
+
+tell application "OmniFocus"
+    tell front document
+	set theProject to first flattened project where its name = "Later"
+	tell theProject to make new task with properties {name:theTask}
+    end tell
+end tell
