@@ -1,6 +1,6 @@
 #!/usr/bin/env osascript
 set theDate to current date
-display dialog "what is your want add to today" default answer ""
+display dialog "what is your want add to Todo" default answer ""
 set theTask to text returned of result
 
 tell application "OmniFocus"

@@ -1,0 +1,7 @@
+#!/usr/bin/env osascript
+tell application "OmniFocus"
+    tell default document
+    set interestingProject to first flattened project whose name is "Today"
+    set interestingTasks to flattened tasks of interestingProject
+    end tell
+end tell
