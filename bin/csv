@@ -1,0 +1,10 @@
+#!/usr/bin/env osascript
+on run
+    tell application "Numbers" to tell front document
+    set tPath to (POSIX file (get path)) as string
+    tell tPath to if it ends with ".numbers" then set tPath to text 1 thru -9 -- remove extension
+    save as "LSDocumentTypeCSV" in file tPath -- Numbers automatically adds the ".csv"
+end tell
+return tPath as alias -- return the path of the CSV file to the next action
+end run
+
